@@ -15,7 +15,7 @@ $(document).ready(function() {
     }
     if (num === "=") {
       res = eval(entry);
-      entry = entry;
+      
     }
 
     // console.log tries
