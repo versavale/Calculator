@@ -3,18 +3,34 @@ $(document).ready(function() {
 
   var entry = "";
   var res = 0;
+  var equ = false;
+  
 
   $("button").click(function() {
      var num = $(this).val();
-     if (num !== "ac" && num !== "=") {
+     if (num !== "ac" && num !== "=" && equ == false) {
     entry = entry.concat(num);
      } 
+    
+    if (num !== "ac" && num !== "=" && num !== "*" && num != "/" && num !== "-" && num !== "+" && equ == true) {
+      entry = "";
+      entry = entry.concat(num);
+      equ = false;
+     } 
+    
+    if (num == "*" && equ == true || num == "/" && equ == true || num == "-" && equ == true || num == "+" && equ == true) {
+      entry = res;
+      entry = entry.concat(num);
+      equ = false;
+     }
+    
     if (num === "ac") {
       entry = "";
       res = 0;
     }
     if (num === "=") {
       res = eval(entry);
+      equ = true;
       
     }
 
