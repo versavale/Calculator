@@ -1,4 +1,3 @@
-
 .title {
   position: absolute;
   margin-left: 22%;
@@ -44,12 +43,12 @@
   box-shadow: inset 2px 2px 4px #888888;
 }
 #log{
-  text-align: right; 
+  text-align: right;
   font-family: 'Orbitron', sans-serif;
 }
 
 #result{
-  text-align: right; 
+  text-align: right;
   font-size: 28px;
   margin-bottom: -5px;
   margin-top: -5px;
@@ -69,7 +68,7 @@
   position: relative;
   padding: 3px;
   margin-top: 10%;
-  margin-left: 10%; 
+  margin-left: 10%;
   float: left;
   border-radius: 5px;
   background-color: #99958E;
@@ -85,7 +84,7 @@
   position: relative;
   padding: 3px;
   margin-top: 10%;
-  margin-left: 10%; 
+  margin-left: 10%;
   float: left;
   border-radius: 5px;
   box-shadow: 0px 2px 1px #888888;
@@ -99,7 +98,7 @@
   position: relative;
   padding: 3px;
   margin-top: 10%;
-  margin-left: 10%; 
+  margin-left: 10%;
   float: left;
   border-radius: 5px;
   background-color: #99958E;
@@ -114,7 +113,7 @@
   position: relative;
   padding: 3px;
   margin-top: 10%;
-  margin-left: 10%; 
+  margin-left: 10%;
   float: left;
   border-radius: 5px;
   background-color: #99958E;
@@ -129,7 +128,7 @@
   position: relative;
   padding: 3px;
   margin-top: 10%;
-  margin-left: 11%; 
+  margin-left: 11%;
   float: left;
   border-radius: 5px;
   background-color: #99958E;
@@ -156,4 +155,3 @@ button:hover {
 li {
   cursor: pointer;
 }
-
